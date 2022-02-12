@@ -80,46 +80,34 @@
   \def\btxpageslong##1{\protect\foreignlanguage{#1}{\IeC {\cyrs }\IeC
       {\cyrt }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC
       {\cyrc }\IeC {\cyri }}}%
-  \def\btxmastthesis##1{\protect\foreignlanguage{#1}{\IeC {\CYRD }\IeC
-      {\cyri }\IeC {\cyrp }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrm }
-      \IeC {\cyrm }\IeC {\cyra }\IeC {\cyrg }\IeC {\cyri }\IeC {\cyrs
-      }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyra }}}%
-  \def\btxphdthesis##1{\protect\foreignlanguage{#1}{{\CYRD }\IeC
-      {\cyra }\IeC {\cyrt }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyra }\IeC
-      {\cyrya } \IeC {\cyrd }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrs
-      }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrc
-      }\IeC {\cyri }\IeC {\cyrya }}}}%
-  \def\btxtechrepshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrt
-      }\IeC {\cyre }\IeC {\cyrh }.\ \IeC {\cyro }\IeC {\cyrt }\IeC
-      {\cyrch }\IeC {\cyre }\IeC {\cyrt }##1{}}}%
-  \def\btxtechreplong##1{\protect\foreignlanguage{#1}{\IeC {\cyrt
-      }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrn }\IeC {\cyri }\IeC
-      {\cyrch }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri
-      } \IeC {\cyro }\IeC {\cyrt }\IeC {\cyrch }\IeC{\cyre }\IeC {\cyrt }}}%
-  \def\btxmonjanlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrya }\IeC {\cyrn }\IeC {\cyru }\IeC {\cyra }\IeC {\cyrr }\IeC{\cyri }}}%
-  \def\btxmonfeblong##1{\protect\foreignlanguage{#1}{\IeC {\cyrf }\IeC{\cyre }\IeC {\cyrv }\IeC {\cyrr }\IeC {\cyru }\IeC {\cyra }\IeC{\cyrr }\IeC{\cyri }}}%
-  \def\btxmonmarlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrm }\IeC{\cyra }\IeC {\cyrr }\IeC {\cyrt }}}%
-  \def\btxmonaprlong##1{\protect\foreignlanguage{#1}{\IeC {\cyra }\IeC{\cyrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrl }}}%
-  \def\btxmonmaylong##1{\protect\foreignlanguage{#1}{\IeC {\cyrm }\IeC{\cyra }\IeC {\cyrishrt }}}%
-  \def\btxmonjunlong##1{\protect\foreignlanguage{#1}{\IeC {\cyryu }\IeC {\cyrn }\IeC {\cyri }}}%
-  \def\btxmonjullong##1{\protect\foreignlanguage{#1}{\IeC {\cyryu }\IeC {\cyrl }\IeC {\cyri }}}%
-  \def\btxmonauglong##1{\protect\foreignlanguage{#1}{\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrg }\IeC {\cyru }\IeC {\cyrs }\IeC {\cyrt }}}%
-  \def\btxmonseplong##1{\protect\foreignlanguage{#1}{\IeC {\cyrs }\IeC {\cyre }\IeC {\cyrp }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrv }\IeC {\cyrr }\IeC {\cyri }}}%
-  \def\btxmonoctlong##1{\protect\foreignlanguage{#1}{\IeC {\cyro }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrm }\IeC {\cyrv }\IeC {\cyrr }\IeC {\cyri }}}%
-  \def\btxmonnovlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrn }\IeC {\cyro }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrv }\IeC {\cyrr }\IeC {\cyri }}}%
-  \def\btxmondeclong##1{\protect\foreignlanguage{#1}{\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrv }\IeC {\cyrr } \IeC {\cyri }}}%
-  \def\btxmonjanshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrya }\IeC {\cyrn }.##1{}}}%
-  \def\btxmonfebshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrf }\IeC {\cyre }\IeC {\cyrv }\IeC {\cyrr }.##1{}}}%
-  \def\btxmonmarshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrm }\IeC {\cyra }\IeC {\cyrr }\IeC {\cyrt }.##1{}}}%
-  \def\btxmonaprshort##1{\protect\foreignlanguage{#1}{\IeC {\cyra }\IeC {\cyrp }\IeC {\cyrr }.##1{}}}%
-  \def\btxmonmayshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrm }\IeC {\cyra }\IeC {\cyrishrt }}}%
-  \def\btxmonjunshort##1{\protect\foreignlanguage{#1}{\IeC {\cyryu }\IeC {\cyrn }\IeC {\cyri }##1{}}}%
-  \def\btxmonjulshort##1{\protect\foreignlanguage{#1}{\IeC {\cyryu }\IeC {\cyrl }\IeC {\cyri }##1{}}}%
-  \def\btxmonaugshort##1{\protect\foreignlanguage{#1}{\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrg }.##1{}}}%
-  \def\btxmonsepshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrs }\IeC {\cyre }\IeC {\cyrp }\IeC {\cyrt }.##1{}}}%
-  \def\btxmonoctshort##1{\protect\foreignlanguage{#1}{\IeC {\cyro }\IeC {\cyrk }\IeC {\cyrt }.##1{}}}%
-  \def\btxmonnovshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrn }\IeC {\cyro }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrv }\IeC {\cyrr }\IeC {\cyri }.##1{}}}%
-  \def\btxmondecshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrk }.##1{}}}%
+  \def\btxmastthesis##1{\protect\foreignlanguage{#1}{Master's thesis}}%
+  \def\btxphdthesis##1{\protect\foreignlanguage{#1}{PhD thesis}}%
+  \def\btxtechrepshort##1{\protect\foreignlanguage{#1}{Techn.\ rep##1{}}}%
+  \def\btxtechreplong##1{\protect\foreignlanguage{#1}{Technical report}}%
+  \def\btxmonjanlong##1{\protect\foreignlanguage{#1}{January}}%
+  \def\btxmonfeblong##1{\protect\foreignlanguage{#1}{February}}%
+  \def\btxmonmarlong##1{\protect\foreignlanguage{#1}{March}}%
+  \def\btxmonaprlong##1{\protect\foreignlanguage{#1}{April}}%
+  \def\btxmonmaylong##1{\protect\foreignlanguage{#1}{May}}%
+  \def\btxmonjunlong##1{\protect\foreignlanguage{#1}{June}}%
+  \def\btxmonjullong##1{\protect\foreignlanguage{#1}{July}}%
+  \def\btxmonauglong##1{\protect\foreignlanguage{#1}{August}}%
+  \def\btxmonseplong##1{\protect\foreignlanguage{#1}{September}}%
+  \def\btxmonoctlong##1{\protect\foreignlanguage{#1}{October}}%
+  \def\btxmonnovlong##1{\protect\foreignlanguage{#1}{November}}%
+  \def\btxmondeclong##1{\protect\foreignlanguage{#1}{December}}%
+  \def\btxmonjanshort##1{\protect\foreignlanguage{#1}{Jan##1{}}}%
+  \def\btxmonfebshort##1{\protect\foreignlanguage{#1}{Feb##1{}}}%
+  \def\btxmonmarshort##1{\protect\foreignlanguage{#1}{Mar##1{}}}%
+  \def\btxmonaprshort##1{\protect\foreignlanguage{#1}{Apr##1{}}}%
+  \def\btxmonmayshort##1{\protect\foreignlanguage{#1}{May}}%
+  \def\btxmonjunshort##1{\protect\foreignlanguage{#1}{June}}%
+  \def\btxmonjulshort##1{\protect\foreignlanguage{#1}{July}}%
+  \def\btxmonaugshort##1{\protect\foreignlanguage{#1}{Aug##1{}}}%
+  \def\btxmonsepshort##1{\protect\foreignlanguage{#1}{Sept##1{}}}%
+  \def\btxmonoctshort##1{\protect\foreignlanguage{#1}{Oct##1{}}}%
+  \def\btxmonnovshort##1{\protect\foreignlanguage{#1}{Nov##1{}}}%
+  \def\btxmondecshort##1{\protect\foreignlanguage{#1}{Dec##1{}}}%
   \def\Btxinlong##1{\protect\foreignlanguage{#1}{In}}%
   \def\Btxinshort##1{\protect\foreignlanguage{#1}{In}}%
   \def\Btxeditorshort##1{\protect\foreignlanguage{#1}{Ed##1{}}}%
