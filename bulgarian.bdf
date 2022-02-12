@@ -42,8 +42,7 @@
   \def\btxvolumelong##1{\protect\foreignlanguage{#1}{\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrm }}}%
   \def\btxjvolumeshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrt }.##1{}}}%
   \def\btxjvolumelong##1{\protect\foreignlanguage{#1}{\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrm }}}%
-  \def\btxnumbershort##1{\protect\foreignlanguage{#1}{%
-      N\textsuperscript{\underline{o}}}}%
+  \def\btxnumbershort##1{\protect\foreignlanguage{#1}{% N\textsuperscript{\underline{o}}}}%
   \def\btxnumberlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrr }}}%
   \def\btxeditionshort##1{\protect\foreignlanguage{#1}{\IeC {\cyri }\IeC {\cyrz }\IeC {\cyrd }.##1{}}}%
   \def\btxeditionlong##1{\protect\foreignlanguage{#1}{\IeC {\cyri }\IeC {\cyrz }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }}}%
@@ -92,29 +91,29 @@
   \def\btxmondecshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrk }.##1{}}}%
   \def\Btxinlong##1{\protect\foreignlanguage{#1}{\IeC {\CYRV }}}%
   \def\Btxinshort##1{\protect\foreignlanguage{#1}{\IeC {\CYRV }}}%
-  \def\Btxeditorshort##1{\protect\foreignlanguage{#1}{Ed##1{}}}%
-  \def\Btxeditorlong##1{\protect\foreignlanguage{#1}{Editor}}%
-  \def\Btxeditorsshort##1{\protect\foreignlanguage{#1}{Eds##1{}}}%
-  \def\Btxeditorslong##1{\protect\foreignlanguage{#1}{Editors}}%
-  \def\Btxvolumeshort##1{\protect\foreignlanguage{#1}{Vol##1{}}}%
-  \def\Btxvolumelong##1{\protect\foreignlanguage{#1}{Volume}}%
-  \def\Btxjvolumeshort##1{\protect\foreignlanguage{#1}{Vol##1{}}}%
-  \def\Btxjvolumelong##1{\protect\foreignlanguage{#1}{Volume}}%
-  \def\Btxnumbershort##1{\protect\foreignlanguage{#1}{No##1{}}}%
-  \def\Btxnumberlong##1{\protect\foreignlanguage{#1}{Number}}%
-  \def\Btxeditionshort##1{\protect\foreignlanguage{#1}{Ed##1{}}}%
-  \def\Btxeditionlong##1{\protect\foreignlanguage{#1}{Edition}}%
+  \def\Btxeditorshort##1{\protect\foreignlanguage{#1}{\protect\foreignlanguage{#1}{\IeC {\CYRR }\IeC {\cyre }\IeC {\cyrd }.##1{}}}%
+  \def\Btxeditorslong##1{\protect\foreignlanguage{#1}{\IeC {\CYRR }\IeC {\cyre }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }}}%
+  \def\Btxeditorsshort##1{\protect\foreignlanguage{#1}{\IeC {\CYRR }\IeC {\cyre }\IeC {\cyrd }.##1{}}}%
+  \def\Btxeditorslong##1{\protect\foreignlanguage{#1}{\IeC {\CYRR }\IeC {\cyre }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }}}%
+  \def\Btxvolumeshort##1{\protect\foreignlanguage{#1}{\IeC {\CYRT }.##1{}}}%
+  \def\Btxvolumelong##1{\protect\foreignlanguage{#1}{\IeC {\CYRT }\IeC {\cyro }\IeC {\cyrm }}}%
+  \def\Btxjvolumeshort##1{\protect\foreignlanguage{#1}{\IeC {\CYRT }.##1{}}}%
+  \def\Btxjvolumelong##1{\protect\foreignlanguage{#1}{\IeC {\CYRT }\IeC {\cyro }\IeC {\cyrm }}}%
+  \def\Btxnumbershort##1{\protect\foreignlanguage{#1}{% N\textsuperscript{\underline{o}}}}%
+  \def\Btxnumberlong##1{\protect\foreignlanguage{#1}{\IeC {\CYRN }\IeC {\cyro }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrr }}}%
+  \def\Btxeditionshort##1{\protect\foreignlanguage{#1}{\IeC {\CYRI }\IeC {\cyrz }\IeC {\cyrd }.##1{}}}%
+  \def\Btxeditionlong##1{\protect\foreignlanguage{#1}{\IeC {\CYRI }\IeC {\cyrz }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }}}%
   \def\Btxeditionnumshort##1##2{\btxnumeralshort{##1}~\Btxeditionshort{##2}}%
   \def\Btxeditionnumlong##1##2{\btxnumerallong{##1}~\Btxeditionlong{##2}}%
-  \def\Btxchaptershort##1{\protect\foreignlanguage{#1}{Ch##1{}}}%
-  \def\Btxchapterlong##1{\protect\foreignlanguage{#1}{Chapter}}%
-  \def\Btxpageshort##1{\protect\foreignlanguage{#1}{P##1{}}}%
-  \def\Btxpagelong##1{\protect\foreignlanguage{#1}{Page}}%
-  \def\Btxpagesshort##1{\protect\foreignlanguage{#1}{Pp##1{}}}%
-  \def\Btxpageslong##1{\protect\foreignlanguage{#1}{Pages}}%
-  \def\Btxtechrepshort##1{\protect\foreignlanguage{#1}{Tech.\ Rep##1{}}}%
-  \def\Btxtechreplong##1{\protect\foreignlanguage{#1}{Technical Report}}%
-  \def\btxurldatecomment##1{\protect\foreignlanguage{#1}{, visited on ##1}}%
+  \def\Btxchaptershort##1{\protect\foreignlanguage{#1}{\IeC {\CYRG }\IeC {\cyrl }.##1{}}}%
+  \def\Btxchapterlong##1{\protect\foreignlanguage{#1}{\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra }}}%
+  \def\Btxpageshort##1{\protect\foreignlanguage{#1}{\IeC {\CYRS }\IeC {\cyrt }\IeC {\cyrr }.##1{}}}%
+  \def\Btxpagelong##1{\protect\foreignlanguage{#1}{\IeC {\CYRS }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyra }}}%
+  \def\Btxpagesshort##1{\protect\foreignlanguage{#1}{\IeC {\CYRS }\IeC {\cyrt }\IeC {\cyrr }.##1{}}}%
+  \def\Btxpageslong##1{\protect\foreignlanguage{#1}{\IeC {\CYRS }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }}}%
+  \def\Btxtechrepshort##1{\protect\foreignlanguage{#1}{\IeC {\CYRT }\IeC {\cyre }\IeC {\cyrh }.\ \IeC {\cyro }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrt }##1{}}}%
+  \def\Btxtechreplong##1{\protect\foreignlanguage{#1}{\IeC {\CYRT }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri } \IeC {\cyro }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrt }}}%
+  \def\btxurldatecomment##1{\protect\foreignlanguage{#1}{, \IeC {\cyrd }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrhrdsn }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyro } ##1}}%
   \def\btxfnamespaceshort{}%
   \def\btxfnamespacelong{ }%
   \def\btxnumeralshort##1{\btxnumeralbulgarian{#1}{##1}}%
@@ -122,7 +121,7 @@
   \def\btxprintmonthyearnum##1##2{##1/##2}%
   \def\btxkeywordlanguage##1{{\protect\selectlanguage{#1}##1}}%
   \ifbbbblanguagenames
-    \def\btxlanguagenameamerican{\protect\foreignlanguage{#1}{bulgarian}}%
+    \def\btxlanguagenameamerican{\protect\foreignlanguage{#1}{\IeC {\cyra }\IeC {\cyrn }\IeC {\cyrg }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrishrt }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri }}}%
     \def\btxlanguagenameaustrian{\protect\foreignlanguage{#1}{german}}%
     \def\btxlanguagenamebrazil{\protect\foreignlanguage{#1}{portuguese}}%
     \def\btxlanguagenamebrazilian{\protect\foreignlanguage{#1}{portuguese}}%
@@ -135,7 +134,7 @@
     \def\btxlanguagenameczech{\protect\foreignlanguage{#1}{czech}}%
     \def\btxlanguagenamedanish{\protect\foreignlanguage{#1}{danish}}%
     \def\btxlanguagenamedutch{\protect\foreignlanguage{#1}{dutch}}%
-    \def\btxlanguagenamebulgarian{\protect\foreignlanguage{#1}{bulgarian}}%
+    \def\btxlanguagenameenglish{\protect\foreignlanguage{#1}{\IeC {\cyra }\IeC {\cyrn }\IeC {\cyrg }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrishrt }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri }}}%
     \def\btxlanguagenameesperanto{\protect\foreignlanguage{#1}{esperanto}}%
     \def\btxlanguagenamefinnish{\protect\foreignlanguage{#1}{finnish}}%
     \def\btxlanguagenamefrancais{\protect\foreignlanguage{#1}{french}}%
@@ -163,26 +162,18 @@
     \def\btxlanguagenamespanish{\protect\foreignlanguage{#1}{spanish}}%
     \def\btxlanguagenameswedish{\protect\foreignlanguage{#1}{swedish}}%
     \def\btxlanguagenameturkish{\protect\foreignlanguage{#1}{turkish}}%
-    \def\btxlanguagenameUKbulgarian{\protect\foreignlanguage{#1}{bulgarian}}%
-    \def\btxlanguagenameUSbulgarian{\protect\foreignlanguage{#1}{bulgarian}}%
+    \def\btxlanguagenameUKenglish{\protect\foreignlanguage{#1}{\IeC {\cyra }\IeC {\cyrn }\IeC {\cyrg }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrishrt }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri }}}%
+    \def\btxlanguagenameUSenglish{\protect\foreignlanguage{#1}{\IeC {\cyra }\IeC {\cyrn }\IeC {\cyrg }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrishrt }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri }}}%
   \fi
 }
 \AtBeginDocument{%
   \ifbbbbfixlanguage
   \else
-    \bbbbaddto{american}{bibsamerican}
-    \bbbbaddto{british}{bibsbritish}
-    \bbbbaddto{canadian}{bibscanadian}
+    \bbbbaddto{bulgarianb}{bibbulgarianb}
     \bbbbaddto{bulgarian}{bibsbulgarian}
-    \bbbbaddto{UKbulgarian}{bibsUKbulgarian}
-    \bbbbaddto{USbulgarian}{bibsUSbulgarian}
   \fi
-  \bbbbaddto{american}{btxifchangecaseon}
-  \bbbbaddto{british}{btxifchangecaseon}
-  \bbbbaddto{canadian}{btxifchangecaseon}
-  \bbbbaddto{bulgarian}{btxifchangecaseon}
-  \bbbbaddto{UKbulgarian}{btxifchangecaseon}
-  \bbbbaddto{USbulgarian}{btxifchangecaseon}
+  \bbbbaddto{bulgarianb}{btxifchangecaseoff}
+  \bbbbaddto{bulgarian}{btxifchangecaseoff}
 }
 
 \endinput
