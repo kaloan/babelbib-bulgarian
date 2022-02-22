@@ -18,7 +18,9 @@
 %% 
 %%   harald.harders@gmx.de
 %%   norbert@preining.info
-%% 
+%%
+%% Language definitions for Bulgarian by
+%%   Kaloian Stoilov <kkstoilov@uni-sofia.bg>
 \ProvidesFile{bulgarian.bdf}
   [2021/01/06 v1.34  babelbib: multilingual bibliographies]
 \newcommand\bibsbulgarian[1][bulgarian]{%
@@ -30,9 +32,9 @@
   \def\btxandcomma##1{,}%
   \def\btxinlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrv }}}%
   \def\btxinshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrv }}}%
-  \def\btxofseriesshort##1{\protect\foreignlanguage{#1}{\IeC {\cyri }\IeC {\cyrz }}}}%
+  \def\btxofseriesshort##1{\protect\foreignlanguage{#1}{\IeC {\cyri }\IeC {\cyrz }}}%
   \def\btxinseriesshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrv }}}%
-  \def\btxofserieslong##1{\protect\foreignlanguage{#1}{\IeC {\cyri }\IeC {\cyrz }}}}}%
+  \def\btxofserieslong##1{\protect\foreignlanguage{#1}{\IeC {\cyri }\IeC {\cyrz }}}%
   \def\btxinserieslong##1{\protect\foreignlanguage{#1}{\IeC {\cyrv }}}%
   \def\btxeditorshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrd }.##1{}}}%
   \def\btxeditorlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }}}%
@@ -62,7 +64,7 @@
       {\cyra }\IeC {\cyrt }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyra }\IeC
       {\cyrya } \IeC {\cyrd }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrs
       }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrc
-      }\IeC {\cyri }\IeC {\cyrya }}}}%
+      }\IeC {\cyri }\IeC {\cyrya }}}%
   \def\btxtechrepshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrh }.\ \IeC {\cyro }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrt }##1{}}}%
   \def\btxtechreplong##1{\protect\foreignlanguage{#1}{\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri } \IeC {\cyro }\IeC {\cyrt }\IeC {\cyrch }\IeC{\cyre }\IeC {\cyrt }}}%
   \def\btxmonjanlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrya }\IeC {\cyrn }\IeC {\cyru }\IeC {\cyra }\IeC {\cyrr }\IeC{\cyri }}}%
@@ -116,8 +118,8 @@
   \def\btxurldatecomment##1{\protect\foreignlanguage{#1}{, \IeC {\cyrd }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrhrdsn }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyro } ##1}}%
   \def\btxfnamespaceshort{}%
   \def\btxfnamespacelong{ }%
-  \def\btxnumeralshort##1{\btxnumeralbulgarian{#1}{##1}}%
-  \def\btxnumerallong##1{\btxnumeralbulgarian{#1}{##1}}%
+  \def\btxnumeralshort##1{\btxnumeralfallback{#1}{##1}}%
+  \def\btxnumerallong##1{\btxnumeralfallback{#1}{##1}}%
   \def\btxprintmonthyearnum##1##2{##1/##2}%
   \def\btxkeywordlanguage##1{{\protect\selectlanguage{#1}##1}}%
   \ifbbbblanguagenames
