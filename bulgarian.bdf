@@ -5,17 +5,17 @@
 %% The original source files were:
 %%
 %% babelbib.dtx  (with options: `latex,bulgarian')
-%% 
+%%
 %%   babelbib package
-%% 
+%%
 %%   Copyright  2003--2021 Harald Harders
 %%   Copyright  2019--2021 Norbert Preining
-%% 
+%%
 %%   This program can be redistributed and/or modified under the terms
 %%   of the LaTeX Project Public License Distributed from CTAN
 %%   archives in directory macros/latex/base/lppl.txt; either
 %%   version 1 of the License, or any later version.
-%% 
+%%
 %%   harald.harders@gmx.de
 %%   norbert@preining.info
 %%
@@ -25,8 +25,8 @@
   [2021/01/06 v1.34  babelbib: multilingual bibliographies]
 \newcommand\bibsbulgarian[1][bulgarian]{%
   \def\biblanguagename{#1}%
-  \def\btxetalshort##1{\protect\foreignlanguage{#1}{\IeC {\cyri }~\IeC {\cyrd }\IeC {\cyrr }.##1{}}}%
-  \def\btxetallong##1{\protect\foreignlanguage{#1}{\IeC {\cyri }~\IeC {\cyrd }\IeC {\cyrr }\IeC {\cyru }\IeC {\cyrg }\IeC {\cyri }}}%
+  \def\btxetalshort##1{\protect\foreignlanguage{#1}{\IeC {\cyri } \IeC {\cyrd }\IeC {\cyrr }.##1{}}}%
+  \def\btxetallong##1{\protect\foreignlanguage{#1}{\IeC {\cyri } \IeC {\cyrd }\IeC {\cyrr }\IeC {\cyru }\IeC {\cyrg }\IeC {\cyri }}}%
   \def\btxandshort##1{\protect\foreignlanguage{#1}{\IeC {\cyri }}}%
   \def\btxandlong##1{\protect\foreignlanguage{#1}{\IeC {\cyri }}}%
   \def\btxandcomma##1{,}%
@@ -48,8 +48,8 @@
   \def\btxnumberlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrr }}}%
   \def\btxeditionshort##1{\protect\foreignlanguage{#1}{\IeC {\cyri }\IeC {\cyrz }\IeC {\cyrd }.##1{}}}%
   \def\btxeditionlong##1{\protect\foreignlanguage{#1}{\IeC {\cyri }\IeC {\cyrz }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }}}%
-  \def\btxeditionnumshort##1##2{\btxnumeralshort{##1}~\btxeditionshort{##2}}%
-  \def\btxeditionnumlong##1##2{\btxnumerallong{##1}~\btxeditionlong{##2}}%
+  \def\btxeditionnumshort##1##2{\btxnumeralshort{##1} \btxeditionshort{##2}}%
+  \def\btxeditionnumlong##1##2{\btxnumerallong{##1} \btxeditionlong{##2}}%
   \def\btxchaptershort##1{\protect\foreignlanguage{#1}{\IeC {\cyrg }\IeC {\cyrl }.##1{}}}%
   \def\btxchapterlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrg }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra }}}%
   \def\btxpageshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }.##1{}}}%
@@ -58,13 +58,13 @@
   \def\btxpageslong##1{\protect\foreignlanguage{#1}{\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }}}%
   \def\btxmastthesis##1{\protect\foreignlanguage{#1}{\IeC {\CYRD }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrm }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyrr }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyra }}}%
   \def\btxphdthesis##1{\protect\foreignlanguage{#1}{\IeC {\CYRD }\IeC {\cyro }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyra } \IeC {\cyrd }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrya }}}%
-  \def\btxtechrepshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrh }.\ \IeC {\cyro }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrt }##1{}}}%
-  \def\btxtechreplong##1{\protect\foreignlanguage{#1}{\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri } \IeC {\cyro }\IeC {\cyrt }\IeC {\cyrch }\IeC{\cyre }\IeC {\cyrt }}}%
-  \def\btxmonjanlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrya }\IeC {\cyrn }\IeC {\cyru }\IeC {\cyra }\IeC {\cyrr }\IeC{\cyri }}}%
-  \def\btxmonfeblong##1{\protect\foreignlanguage{#1}{\IeC {\cyrf }\IeC{\cyre }\IeC {\cyrv }\IeC {\cyrr }\IeC {\cyru }\IeC {\cyra }\IeC{\cyrr }\IeC{\cyri }}}%
-  \def\btxmonmarlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrm }\IeC{\cyra }\IeC {\cyrr }\IeC {\cyrt }}}%
-  \def\btxmonaprlong##1{\protect\foreignlanguage{#1}{\IeC {\cyra }\IeC{\cyrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrl }}}%
-  \def\btxmonmaylong##1{\protect\foreignlanguage{#1}{\IeC {\cyrm }\IeC{\cyra }\IeC {\cyrishrt }}}%
+  \def\btxtechrepshort##1{\protect\foreignlanguage{#1}{\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrh }. \IeC {\cyro }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrt }##1{}}}%
+  \def\btxtechreplong##1{\protect\foreignlanguage{#1}{\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri } \IeC {\cyro }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrt }}}%
+  \def\btxmonjanlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrya }\IeC {\cyrn }\IeC {\cyru }\IeC {\cyra }\IeC {\cyrr }\IeC {\cyri }}}%
+  \def\btxmonfeblong##1{\protect\foreignlanguage{#1}{\IeC {\cyrf }\IeC {\cyre }\IeC {\cyrv }\IeC {\cyrr }\IeC {\cyru }\IeC {\cyra }\IeC {\cyrr }\IeC {\cyri }}}%
+  \def\btxmonmarlong##1{\protect\foreignlanguage{#1}{\IeC {\cyrm }\IeC {\cyra }\IeC {\cyrr }\IeC {\cyrt }}}%
+  \def\btxmonaprlong##1{\protect\foreignlanguage{#1}{\IeC {\cyra }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrl }}}%
+  \def\btxmonmaylong##1{\protect\foreignlanguage{#1}{\IeC {\cyrm }\IeC {\cyra }\IeC {\cyrishrt }}}%
   \def\btxmonjunlong##1{\protect\foreignlanguage{#1}{\IeC {\cyryu }\IeC {\cyrn }\IeC {\cyri }}}%
   \def\btxmonjullong##1{\protect\foreignlanguage{#1}{\IeC {\cyryu }\IeC {\cyrl }\IeC {\cyri }}}%
   \def\btxmonauglong##1{\protect\foreignlanguage{#1}{\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrg }\IeC {\cyru }\IeC {\cyrs }\IeC {\cyrt }}}%
@@ -106,9 +106,9 @@
   \def\Btxpagelong##1{\protect\foreignlanguage{#1}{\IeC {\CYRS }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyra }}}%
   \def\Btxpagesshort##1{\protect\foreignlanguage{#1}{\IeC {\CYRS }\IeC {\cyrt }\IeC {\cyrr }.##1{}}}%
   \def\Btxpageslong##1{\protect\foreignlanguage{#1}{\IeC {\CYRS }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }}}%
-  \def\Btxtechrepshort##1{\protect\foreignlanguage{#1}{\IeC {\CYRT }\IeC {\cyre }\IeC {\cyrh }.\ \IeC {\cyro }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrt }##1{}}}%
+  \def\Btxtechrepshort##1{\protect\foreignlanguage{#1}{\IeC {\CYRT }\IeC {\cyre }\IeC {\cyrh }. \IeC {\cyro }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrt }##1{}}}%
   \def\Btxtechreplong##1{\protect\foreignlanguage{#1}{\IeC {\CYRT }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri } \IeC {\cyro }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrt }}}%
-  \def\btxurldatecomment##1{\protect\foreignlanguage{#1}{, \IeC {\cyrd }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrhrdsn }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyro } ##1}}%
+  \def\btxurldatecomment##1{\protect\foreignlanguage{#1}{, \IeC {\cyrd }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrhrdsn }\IeC {\cyrp }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyro } ##1}}%
   \def\btxfnamespaceshort{}%
   \def\btxfnamespacelong{ }%
   \def\btxnumeralshort##1{\btxnumeralfallback{#1}{##1}}%
